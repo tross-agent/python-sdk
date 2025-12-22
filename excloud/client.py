@@ -149,7 +149,7 @@ class Client:
     def create(
         self,
         name: Optional[str] = None,
-        instance_type: str = "n1.2c",
+        instance_type: str = "t1.medium",
         image_id: int = 7,
         zone_id: int = 1,
     ) -> Sandbox:
